@@ -1,4 +1,4 @@
-## [0.0.1.1] - 2024-06-18
+## [0.0.1.x] - 2024-06-18
 ### New
 - Added SVG Icon for Mirage Dental Clinic
 

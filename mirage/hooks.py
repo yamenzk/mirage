@@ -38,7 +38,7 @@ app_license = "mit"
 # Svg Icons
 # ------------------
 # include app icons in desk
-app_include_icons = "mirage/icons/mirage_logo.svg"
+app_include_icons = "mirage/icons/miragelogo.svg"
 
 # Home Pages
 # ----------
