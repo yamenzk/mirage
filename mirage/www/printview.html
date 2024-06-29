@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html lang="{{ lang }}" dir="{{ layout_direction }}">
 <head>
-    <link rel="icon" href="/files/favicon2.ico" type="image/x-icon">
+	{% if doctype == "File Manager" %}
+	<link rel="icon" href="/files/filemanagerfav.ico" type="image/x-icon">
+	{% else %}
+    <link rel="icon" href="/files/newfavmirage.ico" type="image/x-icon">
+	{% endif %}
     <meta property="og:url" content="{{frappe.get_url() + '/' + doctype.replace(' ', '%20') + '/' + name + '?key=' + frappe.get_doc(doctype, name).get_signature()}}">
 	<meta property="og:type" content="website">
     <meta property="og:title" content="{{doctype}} - {{name}}">
