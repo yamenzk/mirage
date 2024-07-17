@@ -1,3 +1,6 @@
+## [0.0.2.2] - 2024-07-17
+- Added new icons for Mirage TV and Mirage Radio
+
 ## [0.0.2.1] - 2024-06-30
 - Updated favicon for better quality.
 - Added File Manager favicon.
