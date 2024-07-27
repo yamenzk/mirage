@@ -134,9 +134,9 @@ after_install = "mirage.install.after_install"
 
 doc_events = {
     "*": {
-        "on_update": send_mirage_update,
-        "after_insert": send_mirage_update,
-        "on_trash": send_mirage_update,
+        "on_update": "mirage.utils.realtime.send_mirage_update",
+        "after_insert": "mirage.utils.realtime.send_mirage_update",
+        "on_trash": "mirage.utils.realtime.send_mirage_update",
     }
 }
 
