@@ -1,3 +1,6 @@
+## [0.0.2.4] - 2024-07-17
+- Added missing `__init__.py`
+
 ## [0.0.2.3] - 2024-07-17
 - Added `send_mirage_update(doc, method)` and modified `hooks.py`
 
