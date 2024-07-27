@@ -3,8 +3,9 @@
 import frappe
 
 ALLOWED_DOCTYPES = {
-    "Radio Playlist",
-    "Radio State Manager",
+    "Radio Manager",
+    "Prayer Times",
+    "Radio Track",
     # Add more DocTypes here as needed
 }
 

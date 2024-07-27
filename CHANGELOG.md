@@ -1,10 +1,13 @@
-## [0.0.2.5] - 2024-07-17
+## [0.0.2.6] - 2024-07-27
+- Added new permitted doctypes to `send_mirage_update`
+
+## [0.0.2.5] - 2024-07-27
 - Fixed `hooks.py`
 
-## [0.0.2.4] - 2024-07-17
+## [0.0.2.4] - 2024-07-27
 - Added missing `__init__.py`
 
-## [0.0.2.3] - 2024-07-17
+## [0.0.2.3] - 2024-07-27
 - Added `send_mirage_update(doc, method)` and modified `hooks.py`
 
 ## [0.0.2.2] - 2024-07-17
