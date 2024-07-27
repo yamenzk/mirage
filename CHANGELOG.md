@@ -1,3 +1,6 @@
+## [0.0.2.3] - 2024-07-17
+- Added `send_mirage_update(doc, method)` and modified `hooks.py`
+
 ## [0.0.2.2] - 2024-07-17
 - Added new icons for Mirage TV and Mirage Radio
 

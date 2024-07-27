@@ -1,3 +1,6 @@
+from .utils.realtime import send_mirage_update
+
+
 app_name = "mirage"
 app_title = "mirage"
 app_publisher = "ITDept"
@@ -129,13 +132,13 @@ after_install = "mirage.install.after_install"
 # ---------------
 # Hook on document methods and events
 
-# doc_events = {
-# 	"*": {
-# 		"on_update": "method",
-# 		"on_cancel": "method",
-# 		"on_trash": "method"
-# 	}
-# }
+doc_events = {
+    "*": {
+        "on_update": send_mirage_update,
+        "after_insert": send_mirage_update,
+        "on_trash": send_mirage_update,
+    }
+}
 
 # Scheduled Tasks
 # ---------------
