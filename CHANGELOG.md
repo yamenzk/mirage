@@ -1,3 +1,6 @@
+## [0.0.2.8] - 2024-08-03
+- Added new permitted doctypes to `send_mirage_update`
+
 ## [0.0.2.7] - 2024-07-29
 - Added new permitted doctypes to `send_mirage_update`
 
